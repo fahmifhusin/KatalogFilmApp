@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Submission5_FahmiFarhanHusin</string>
+    <string name="film">Movies</string>
+    <string name="tayangan_tv">Tv Show</string>
+    <string name="daftar_film">Film List</string>
+
+    <string name="change_language_settings">Choose Languange</string>
+    <string name="list_img">Image List</string>
+    <string name="list_title">total_results</string>
+    <string name="list_category">Release Date</string>
+    <string name="deskripsi">Description</string>
+    <string name="ketGambar">Detail Image</string>
+    <string name="bahasa">en-US</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="remove_fav">Delete from Favorite</string>
+    <string name="add_fav">Add to Favorite</string>
+    <string name="empty">Empty</string>
+    <string name="widget_text">FAVORITE MOVIES</string>
+    <string name="widget_text2">FAVORITE TV</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="widget_selected">Widget Selected</string>
+    <string name="settings">Settings</string>
+    <string name="show_release_today_reminder">Show Release Today Reminder</string>
+    <string name="show_daily_reminder">Show Daily Reminder</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_today">Release Today</string>
+    <string name="desc_daily_reminder">Come on Look and Search</string>
+    <string name="daily_stats_enabled">Daily Notification Enabled</string>
+    <string name="daily_stats_disabled">Daily Notification Disabled</string>
+    <string name="release_stats_enabled">Release Notification Enabled</string>
+    <string name="release_stats_disabled">Release Notification Disabled</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="after_add">Already Add in Favorite</string>
+</resources>
+

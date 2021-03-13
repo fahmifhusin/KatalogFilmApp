@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250301281353",
+    "firebase_url": "https://submission5fahmifarhanhusin.firebaseio.com",
+    "project_id": "submission5fahmifarhanhusin",
+    "storage_bucket": "submission5fahmifarhanhusin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250301281353:android:30bc83006d2e0577f13b98",
+        "android_client_info": {
+          "package_name": "com.brontocyber.submission2_fahmifarhanhusin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250301281353-kvhonoqsleo7c3vqu3aa8svn3bepmrve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brontocyber.submission2_fahmifarhanhusin",
+            "certificate_hash": "a86fba495c136c0625a2984041a024a07e568661"
+          }
+        },
+        {
+          "client_id": "250301281353-3biembrh33tn3nsqlpe862h9a7930em2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlVyXwQ9BfqnSMt68V_4C7TR3yyNwt5cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250301281353-3biembrh33tn3nsqlpe862h9a7930em2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

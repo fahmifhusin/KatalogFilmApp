@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Submission5_FahmiFarhanHusin</string>
+    <string name="film">Film</string>
+    <string name="tayangan_tv">Tayangan TV</string>
+    <string name="daftar_film">Daftar Film</string>
+
+    <string name="change_language_settings">Pilih Bahasa</string>
+    <string name="list_img">Daftar Gambar</string>
+    <string name="list_title">Judul</string>
+    <string name="list_category">Jadwal Rilis</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="ketGambar">Detail Gambar</string>
+    <string name="bahasa">id</string>
+
+    <string name="favorite">Favorit</string>
+    <string name="remove_fav">Dihapus dari Favorit</string>
+    <string name="add_fav">Ditambah ke Favorit</string>
+    <string name="empty">Kosong</string>
+    <string name="widget_text">FILM FAVORITE</string>
+    <string name="widget_text2">TV FAVORITE</string>
+    <string name="empty_text">DATA KOSONG</string>
+    <string name="widget_selected">Widget dilpilih</string>
+    <string name="settings">Pengaturan</string>
+    <string name="show_release_today_reminder">Tampilkan Pengingat Rilis Terkini</string>
+    <string name="show_daily_reminder">Tampilkan Pengingat Harian</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_today">Rilis Terkini</string>
+    <string name="desc_daily_reminder">Ayo Lihat dan Cari</string>
+    <string name="daily_stats_enabled">Pemberitahuan Harian Aktif</string>
+    <string name="daily_stats_disabled">Pemberitahuan Harian Dimatikan</string>
+    <string name="release_stats_enabled">Pemberitahuan Rilis Aktif</string>
+    <string name="release_stats_disabled">Pemberitahuan Harian Dimatikan</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="after_add">Sudah ditambah ke Favorite</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>
