@@ -2,6 +2,7 @@ package com.brontocyber.submission5_fahmifarhanhusin.adapter.detail;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,6 +38,7 @@ public class DetailMovieAdapter extends RecyclerView.Adapter<DetailMovieAdapter.
             holder.title.setText(respon.getTitle());
             holder.release.setText(respon.getRelease_date());
             holder.overview.setText(respon.getOverview());
+            holder.overview.setMovementMethod(new ScrollingMovementMethod());
         }catch (Exception e){
             Log.d("isi_adapter",respon.getTitle());
         }

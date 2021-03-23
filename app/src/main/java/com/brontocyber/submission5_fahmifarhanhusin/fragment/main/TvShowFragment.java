@@ -4,6 +4,10 @@ package com.brontocyber.submission5_fahmifarhanhusin.fragment.main;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.arch.persistence.room.Room;
+import android.content.Context;
+import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -16,6 +20,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.brontocyber.submission5_fahmifarhanhusin.MainActivity;
 import com.brontocyber.submission5_fahmifarhanhusin.R;
 import com.brontocyber.submission5_fahmifarhanhusin.adapter.main.ListTvAdapter;
 import com.brontocyber.submission5_fahmifarhanhusin.database.FavMoviesDb;
@@ -112,8 +117,13 @@ public class TvShowFragment extends Fragment {
 
             @Override
             public void onFailure(Call<RequestAcara> call, Throwable t) {
-                Toast.makeText(getContext(), "Something Wrong", Toast.LENGTH_LONG).show();
-                Log.d("status", "FAILED");
+                try{
+                    Toast.makeText(getContext(), "Something Wrong", Toast.LENGTH_LONG).show();
+                    Log.d("status", "FAILED");
+                }
+                catch (Exception e){
+                    e.getMessage();
+                }
             }
         });
 

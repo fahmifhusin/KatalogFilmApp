@@ -28,13 +28,16 @@ public class TvWidgetAdapter implements RemoteViewsService.RemoteViewsFactory {
 
     @Override
     public void onCreate() {
+        try{
         list = mContext.getContentResolver().query(
                 DataProvider.CONTENT_URI_TV,
                 null,
                 null,
                 null,
                 null
-        );
+        );}catch (Exception e){
+            e.getMessage();
+        }
     }
 
     @Override

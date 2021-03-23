@@ -24,6 +24,7 @@ import android.view.MenuItem;
 
 import com.brontocyber.submission5_fahmifarhanhusin.adapter.main.PageAdapter;
 import com.brontocyber.submission5_fahmifarhanhusin.database.FavMoviesDb;
+import com.brontocyber.submission5_fahmifarhanhusin.database.pojo.Favorite;
 import com.brontocyber.submission5_fahmifarhanhusin.fragment.main.MoviesFragment;
 import com.brontocyber.submission5_fahmifarhanhusin.fragment.main.TvShowFragment;
 import com.brontocyber.submission5_fahmifarhanhusin.settings.SettingsActivity;
@@ -92,6 +93,14 @@ public class MainActivity extends AppCompatActivity  implements SearchView.OnQue
         getMenuInflater().inflate(R.menu.menu_main, menu);
         //kode untuk search
         MenuItem item = menu.findItem(R.id.search_acara);
+        MenuItem favItem = menu.findItem(R.id.fav_item);
+        favItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this, FavoriteActivity.class));
+                return true;
+            }
+        });
         searchView = (SearchView) item.getActionView();
         searchView.setQueryHint("Cari Acara");
         searchView.setIconified(true);

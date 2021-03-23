@@ -118,8 +118,14 @@ public class MoviesFragment extends Fragment {
 
             @Override
             public void onFailure(Call<RequestAcara> call, Throwable t) {
-                Toast.makeText(getContext(), "Something Wrong", Toast.LENGTH_LONG).show();
-                Log.d("status", "FAILED");
+                try{
+                    Toast.makeText(getContext(), "Something Wrong", Toast.LENGTH_LONG).show();
+                    Log.d("status", "FAILED");
+                }
+                catch (Exception e){
+                    e.getMessage();
+                }
+
             }
         });
     }

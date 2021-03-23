@@ -24,10 +24,10 @@
     <TextView
         android:id="@+id/detail_judul"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/list_title"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -41,9 +41,9 @@
         android:id="@+id/detail_rilis"
         android:layout_width="300dp"
         android:layout_height="30dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/list_category"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -52,18 +52,21 @@
 
     <TextView
         android:id="@+id/detail_deskripsi"
-        android:layout_width="378dp"
-        android:layout_height="313dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:scrollbars="vertical"
         android:text="@string/deskripsi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detail_rilis" />
+        app:layout_constraintTop_toBottomOf="@+id/detail_rilis"
+        app:layout_constraintVertical_bias="0.019" />
 
 
 </android.support.constraint.ConstraintLayout>
